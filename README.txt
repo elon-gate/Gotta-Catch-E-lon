@@ -6,7 +6,7 @@ Tested on Python 3.8
 To play the game, download and run "Run_To_Play_Full_Game.py"
 ------------------------------------------------------------------------------------------------------------------------------
 16/06/2020:
-Gotta Catch E'lon uploaded to GitHub
+Gotta Catch E'lon v1.0 uploaded to GitHub
 
 -------------------------------------And now, a small poem by an anonymous intelectual----------------------------------------
 I am a snail, going through snail land
