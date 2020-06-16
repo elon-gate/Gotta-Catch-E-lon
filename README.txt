@@ -6,4 +6,4 @@ Tested on Python 3.8
 To play the game, download and run "Run_To_Play_Full_Game.py"
 ------------------------------------------------------------------------------------------------------------------------------
 16/06/2020:
-Gotta Catch E'lon uploaded to github
+Gotta Catch E'lon uploaded to GitHub
