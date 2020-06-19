@@ -28,6 +28,7 @@ def main_menu(highscore, global_running, chosen, rocket_rects_locked, rocket_img
     scr_txt2, scr_txt2_rect = makefont("PLAY GAME", 5, (int(scr_width / 2), int(scr_height * 0.5)), factor)
     scr_txt3, scr_txt3_rect = makefont("QUIT", 5, (int(scr_width / 2), int(scr_height * 0.7)), factor)
     scr_txt4, scr_txt4_rect = makefont("SETTINGS", 5, (int(scr_width / 2), int(scr_height * 0.55)), factor)
+    scr_txt5, scr_txt5_rect = makefont("SPLASHTEST", 5, (int(scr_width * 3 / 4), int(scr_height * 0.35)), factor)
     txt_controls, txt_controls_rect = makefont("CONTROLS", 5, (int(scr_width / 2), int(scr_height * 0.6)),
                                                factor)
     txt_credits, txt_credits_rect = makefont("CREDITS", 5, (int(scr_width / 2), int(scr_height * 0.65)), factor)
@@ -46,6 +47,7 @@ def main_menu(highscore, global_running, chosen, rocket_rects_locked, rocket_img
             scr_txt2, scr_txt2_rect = makefont("PLAY GAME", 5, (int(scr_width / 2), int(scr_height * 0.5)), factor)
             scr_txt3, scr_txt3_rect = makefont("QUIT", 5, (int(scr_width / 2), int(scr_height * 0.7)), factor)
             scr_txt4, scr_txt4_rect = makefont("SETTINGS", 5, (int(scr_width / 2), int(scr_height * 0.55)), factor)
+            scr_txt5, scr_txt5_rect = makefont("SPLASHTEST", 5, (int(scr_width * 3 / 4), int(scr_height * 0.35)), factor)
             txt_controls, txt_controls_rect = makefont("CONTROLS", 5, (int(scr_width / 2), int(scr_height * 0.6)),
                                                        factor)
             txt_credits, txt_credits_rect = makefont("CREDITS", 5, (int(scr_width / 2), int(scr_height * 0.65)), factor)
@@ -65,6 +67,7 @@ def main_menu(highscore, global_running, chosen, rocket_rects_locked, rocket_img
         scr.blit(scr_txt2, scr_txt2_rect)
         scr.blit(scr_txt3, scr_txt3_rect)
         scr.blit(scr_txt4, scr_txt4_rect)
+        scr.blit(scr_txt5, scr_txt5_rect)
         scr.blit(txt_controls, txt_controls_rect)
         scr.blit(txt_credits, txt_credits_rect)
 
